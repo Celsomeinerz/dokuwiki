@@ -76,11 +76,11 @@ $conf['mailguard']   = 'hex';            //obfuscate email addresses against spa
                                          //  'visible' - replace @ with [at], . with [dot] and - with [dash]
                                          //  'hex'     - use hex entities to encode the mail address
                                          //  'none'    - do not obfuscate addresses
-$conf['iexssprotect']= 0;                // check for JavaScript and HTML in uploaded files 0|1
+$conf['iexssprotect']= 1;                // check for JavaScript and HTML in uploaded files 0|1
 
 /* Editing Settings */
 $conf['usedraft']    = 1;                //automatically save a draft while editing (0|1)
-$conf['htmlok']      = 1;                //may raw HTML be embedded? This may break layout and XHTML validity 0|1
+$conf['htmlok']      = 0;                //may raw HTML be embedded? This may break layout and XHTML validity 0|1
 $conf['phpok']       = 0;                //may PHP code be embedded? Never do this on the internet! 0|1
 $conf['locktime']    = 15*60;            //maximum age for lockfiles (defaults to 15 minutes)
 $conf['cachetime']   = 60*60*24;         //maximum age for cachefile in seconds (defaults to a day)
