@@ -76,7 +76,7 @@ $conf['mailguard']   = 'hex';            //obfuscate email addresses against spa
                                          //  'visible' - replace @ with [at], . with [dot] and - with [dash]
                                          //  'hex'     - use hex entities to encode the mail address
                                          //  'none'    - do not obfuscate addresses
-$conf['iexssprotect']= 1;                // check for JavaScript and HTML in uploaded files 0|1
+$conf['iexssprotect']= 0;                // check for JavaScript and HTML in uploaded files 0|1
 
 /* Editing Settings */
 $conf['usedraft']    = 1;                //automatically save a draft while editing (0|1)
